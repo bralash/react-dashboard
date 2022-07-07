@@ -67,7 +67,7 @@ const App = () => {
                         <Route path='/color-picker' element={<ColorPicker />} />
 
                         {/* Charts */}
-                        <Route path='/' element={<Line />} />
+                        <Route path='/line' element={<Line />} />
                         <Route path='/area' element={<Area />} />
                         <Route path='/bar' element={<Bar />} />
                         <Route path='/pie' element={<Pie />} />
